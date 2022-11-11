@@ -66,7 +66,7 @@
       >
         Hinweis
       </button>
-    <div>Errate das Wort. Alle Buchstaben sind klein geschrieben.</div>
+    <div>Errate das Wort. Alle Buchstaben sind groß geschrieben.</div>
     </div>
     <full-page v-if="isSolved">
       <h1 class="font-2xl font-bold">Super!</h1>
@@ -118,8 +118,8 @@ export default {
       hintAvailable: true,
       mode: "easy",
       codeWords: {
-        hard: ["ninjago", "klettern", "mathematik"],
-        easy: ["hi", "hallo", "eis"],
+        hard: ["NINJAGO", "KLETTERN", "MATHEMATIK"],
+        easy: ["HI", "HALLO", "EIS"],
       },
       codeWord: "hi",
       decodedWord: "",
